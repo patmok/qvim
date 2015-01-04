@@ -957,7 +957,7 @@ syn keyword kPrimitive cos
 syn keyword kSpecial delete
 syn keyword kPrimitive div
 syn keyword kPrimitive do
-syn keyword kPrimitive exec
+syn keyword kSpecial exec
 syn keyword kPrimitive exit
 syn keyword kPrimitive exp
 syn keyword kSpecial from
