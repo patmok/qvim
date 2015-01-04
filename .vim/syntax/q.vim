@@ -14,7 +14,7 @@ endif
 source <sfile>:p:h/k.vim
 
 " all _ in names in q
-set iskeyword=@,_,48-57,.
+set iskeyword=@,48-57,.
 
 " Identifier tweak to allow _ in identifiers
 syn match qIdentifier "\<\a\w*\>"
