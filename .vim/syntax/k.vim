@@ -965,7 +965,7 @@ syn keyword kPrimitive getenv
 syn keyword kPrimitive i
 syn keyword kPrimitive if
 syn keyword kPrimitive in
-syn keyword kPrimitive insert
+syn keyword kSpecial insert
 syn keyword kPrimitive last
 syn keyword kPrimitive like
 syn keyword kPrimitive log
