@@ -1233,9 +1233,12 @@ syn keyword qLib \.q\.rsave
 syn keyword qLib \.q\.rtrim
 syn keyword qLib \.q\.save
 syn keyword qLib \.q\.scan
+syn keyword qLib \.q\.scov
+syn keyword qLib \.q\.sdev
 syn keyword qLib \.q\.set
 syn keyword qLib \.q\.show
 syn keyword qLib \.q\.signum
+syn keyword qLib \.q\.svar
 syn keyword qLib \.q\.ssr
 syn keyword qLib \.q\.string
 syn keyword qLib \.q\.sublist

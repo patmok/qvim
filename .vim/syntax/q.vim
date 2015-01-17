@@ -116,9 +116,12 @@ syn keyword qFunction  rsave
 syn keyword qFunction  rtrim
 syn keyword qFunction  save
 syn keyword qFunction  scan
+syn keyword qFunction  scov
+syn keyword qFunction  sdev
 syn keyword qFunction  set
 syn keyword qFunction  show
 syn keyword qFunction  signum
+syn keyword qFunction  svar
 syn keyword qFunction  ssr
 syn keyword qFunction  string
 syn keyword qFunction  sublist
