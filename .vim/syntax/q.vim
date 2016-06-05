@@ -46,6 +46,7 @@ syn keyword qFunction  differ
 syn keyword qFunction  distinct
 syn keyword qFunction  each
 syn keyword qFunction  ej
+syn keyword qFunction  ema
 syn keyword qFunction  enlist
 syn keyword qFunction  eval
 syn keyword qFunction  except
@@ -109,6 +110,7 @@ syn keyword qFunction  raze
 syn keyword qFunction  read0
 syn keyword qFunction  read1
 syn keyword qFunction  reciprocal
+syn keyword qFunction  reval
 syn keyword qFunction  reverse
 syn keyword qFunction  rload
 syn keyword qFunction  rotate

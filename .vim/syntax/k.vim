@@ -1019,13 +1019,17 @@ syn keyword qLib \.Q\.fl
 syn keyword qLib \.Q\.fmt
 syn keyword qLib \.Q\.foo
 syn keyword qLib \.Q\.fp
+syn keyword qLib \.Q\.fpn
+syn keyword qLib \.Q\.fps
 syn keyword qLib \.Q\.fs
 syn keyword qLib \.Q\.fsn
 syn keyword qLib \.Q\.ft
 syn keyword qLib \.Q\.fu
 syn keyword qLib \.Q\.gc
 syn keyword qLib \.Q\.hdpf
+syn keyword qLib \.Q\.hg
 syn keyword qLib \.Q\.host
+syn keyword qLib \.Q\.hp
 syn keyword qLib \.Q\.id
 syn keyword qLib \.Q\.ind
 syn keyword qLib \.Q\.j10
@@ -1066,6 +1070,7 @@ syn keyword qLib \.Q\.ua
 syn keyword qLib \.Q\.v
 syn keyword qLib \.Q\.view
 syn keyword qLib \.Q\.w
+syn keyword qLib \.Q\.Xf
 syn keyword qLib \.Q\.x0
 syn keyword qLib \.Q\.x1
 syn keyword qLib \.Q\.x10
@@ -1163,6 +1168,7 @@ syn keyword qLib \.q\.differ
 syn keyword qLib \.q\.distinct
 syn keyword qLib \.q\.each
 syn keyword qLib \.q\.ej
+syn keyword qLib \.q\.ema
 syn keyword qLib \.q\.enlist
 syn keyword qLib \.q\.eval
 syn keyword qLib \.q\.except
@@ -1226,6 +1232,7 @@ syn keyword qLib \.q\.raze
 syn keyword qLib \.q\.read0
 syn keyword qLib \.q\.read1
 syn keyword qLib \.q\.reciprocal
+syn keyword qLib \.q\.reval
 syn keyword qLib \.q\.reverse
 syn keyword qLib \.q\.rload
 syn keyword qLib \.q\.rotate
@@ -1314,6 +1321,7 @@ syn match qLib "\.z\.vs"
 syn match qLib "\.z\.w"
 syn match qLib "\.z\.ws"
 syn match qLib "\.z\.x"
+syn match qLib "\.z\.X"
 syn match qLib "\.z\.z"
 syn match qLib "\.z\.zd"
 
