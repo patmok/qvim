@@ -397,7 +397,6 @@ syn keyword kLocal ei
 syn keyword kLocal ek
 syn keyword kLocal el
 syn keyword kLocal em
-syn keyword kLocal en
 syn keyword kLocal eo
 syn keyword kLocal ep
 syn keyword kLocal eq
@@ -1002,6 +1001,8 @@ syn keyword qLib \.Q\.addr
 syn keyword qLib \.Q\.an
 syn keyword qLib \.Q\.b6
 syn keyword qLib \.Q\.chk
+syn keyword qLib \.Q\.trp
+syn keyword qLib \.Q\.sbt
 syn keyword qLib \.Q\.bc
 syn keyword qLib \.Q\.bd
 syn keyword qLib \.Q\.bs
@@ -1091,6 +1092,7 @@ syn keyword qLib \.Q\.x10
 syn keyword qLib \.Q\.x12
 syn keyword qLib \.Q\.x2
 syn keyword qLib \.Q\.xy
+syn keyword qLib \.Q\.bt
 syn keyword qLib \.h\.HOME
 syn keyword qLib \.h\.br
 syn keyword qLib \.h\.c0
@@ -1338,6 +1340,12 @@ syn match qLib "\.z\.x"
 syn match qLib "\.z\.X"
 syn match qLib "\.z\.z"
 syn match qLib "\.z\.zd"
+syn match qLib "\.z\.ex"
+syn match qLib "\.z\.ey"
+syn match qLib "\.z\.e"
+syn match qLib "\.z\.pd"
+syn match qLib "\.z\.pm"
+syn match qLib "\.z\.wc"
 
 "syn match kIdentifier "\<\a[a-zA-Z0-9]*\>"
 "syn match kIdentifier "\<[a-zA-Z\.][a-zA-Z0-9\.]*\>"

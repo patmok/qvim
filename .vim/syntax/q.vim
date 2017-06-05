@@ -48,6 +48,7 @@ syn keyword qFunction  each
 syn keyword qFunction  ej
 syn keyword qFunction  ema
 syn keyword qFunction  enlist
+syn keyword qFunction  en
 syn keyword qFunction  eval
 syn keyword qFunction  except
 syn keyword qFunction  fby
