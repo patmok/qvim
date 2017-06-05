@@ -67,11 +67,13 @@ syn keyword qFunction  hsym
 syn keyword qFunction  iasc
 syn keyword qFunction  idesc
 syn keyword qFunction  ij
+syn keyword qFunction  ijf
 syn keyword qFunction  inter
 syn keyword qFunction  inv
 syn keyword qFunction  key
 syn keyword qFunction  keys
 syn keyword qFunction  lj
+syn keyword qFunction  ljf
 syn keyword qFunction  load
 syn keyword qFunction  lower
 syn keyword qFunction  lsq
@@ -136,6 +138,7 @@ syn keyword qFunction  trim
 syn keyword qFunction  txf
 syn keyword qFunction  type
 syn keyword qFunction  uj
+syn keyword qFunction  ujf
 syn keyword qFunction  ungroup
 syn keyword qFunction  union
 syn keyword qFunction  upper
@@ -146,6 +149,7 @@ syn keyword qFunction  view
 syn keyword qFunction  views
 syn keyword qFunction  vs
 syn keyword qFunction  where
+syn keyword qFunction  ww
 syn keyword qFunction  wj
 syn keyword qFunction  wj1
 syn keyword qFunction  xasc
@@ -158,6 +162,7 @@ syn keyword qFunction  xkey
 syn keyword qFunction  xlog
 syn keyword qFunction  xprev
 syn keyword qFunction  xrank
+syn keyword qFunction  dsave
 
 " Include
 syn match qLang "^k)"

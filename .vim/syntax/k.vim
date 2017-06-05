@@ -1002,6 +1002,17 @@ syn keyword qLib \.Q\.addr
 syn keyword qLib \.Q\.an
 syn keyword qLib \.Q\.b6
 syn keyword qLib \.Q\.chk
+syn keyword qLib \.Q\.bc
+syn keyword qLib \.Q\.bd
+syn keyword qLib \.Q\.bs
+syn keyword qLib \.Q\.bp
+syn keyword qLib \.Q\.BP
+syn keyword qLib \.Q\.err
+syn keyword qLib \.Q\.dbg
+syn keyword qLib \.Q\.DL
+syn keyword qLib \.Q\.lu
+syn keyword qLib \.Q\.prr
+syn keyword qLib \.Q\.srr
 syn keyword qLib \.Q\.cn
 syn keyword qLib \.Q\.d0
 syn keyword qLib \.Q\.dd
@@ -1023,6 +1034,7 @@ syn keyword qLib \.Q\.fpn
 syn keyword qLib \.Q\.fps
 syn keyword qLib \.Q\.fs
 syn keyword qLib \.Q\.fsn
+syn keyword qLib \.Q\.MAP
 syn keyword qLib \.Q\.ft
 syn keyword qLib \.Q\.fu
 syn keyword qLib \.Q\.gc
@@ -1060,6 +1072,8 @@ syn keyword qLib \.Q\.s
 syn keyword qLib \.Q\.s1
 syn keyword qLib \.Q\.s2
 syn keyword qLib \.Q\.sw
+syn keyword qLib \.Q\.hap
+syn keyword qLib \.Q\.hmb
 syn keyword qLib \.Q\.t
 syn keyword qLib \.Q\.t0
 syn keyword qLib \.Q\.tab
