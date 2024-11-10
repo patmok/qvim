@@ -21,7 +21,7 @@ syn match qIdentifier "\<\a\w*\>"
 syn match qGlobal "\<\u[A-Z0-9_]*\>"
 " redo qPlaceholder as kPlaceholder may have got zapped 
 syn match qPlaceholder "\<[xyz]\>"
-
+" qFunction except kSpecial
 syn keyword qFunction  aj
 syn keyword qFunction  aj0
 syn keyword qFunction  ajf
@@ -35,22 +35,17 @@ syn keyword qFunction  attr
 syn keyword qFunction  avgs
 syn keyword qFunction  ceiling
 syn keyword qFunction  cols
-syn keyword qFunction  cor
 syn keyword qFunction  count
-syn keyword qFunction  cov
 syn keyword qFunction  cross
 syn keyword qFunction  csv
 syn keyword qFunction  cut
 syn keyword qFunction  deltas
 syn keyword qFunction  desc
-syn keyword qFunction  dev
 syn keyword qFunction  differ
 syn keyword qFunction  distinct
 syn keyword qFunction  each
 syn keyword qFunction  ej
 syn keyword qFunction  ema
-syn keyword qFunction  enlist
-syn keyword qFunction  en
 syn keyword qFunction  eval
 syn keyword qFunction  except
 syn keyword qFunction  fby
@@ -65,7 +60,6 @@ syn keyword qFunction  gtime
 syn keyword qFunction  hclose
 syn keyword qFunction  hcount
 syn keyword qFunction  hdel
-syn keyword qFunction  hopen
 syn keyword qFunction  hsym
 syn keyword qFunction  iasc
 syn keyword qFunction  idesc
@@ -104,7 +98,6 @@ syn keyword qFunction  over
 syn keyword qFunction  parse
 syn keyword qFunction  peach
 syn keyword qFunction  pj
-syn keyword qFunction  plist
 syn keyword qFunction  prds
 syn keyword qFunction  prev
 syn keyword qFunction  prior
@@ -138,16 +131,13 @@ syn keyword qFunction  system
 syn keyword qFunction  tables
 syn keyword qFunction  til
 syn keyword qFunction  trim
-syn keyword qFunction  txf
 syn keyword qFunction  type
 syn keyword qFunction  uj
 syn keyword qFunction  ujf
 syn keyword qFunction  ungroup
 syn keyword qFunction  union
 syn keyword qFunction  upper
-"syn keyword qFunction  upsert
 syn keyword qFunction  value
-syn keyword qFunction  var
 syn keyword qFunction  view
 syn keyword qFunction  views
 syn keyword qFunction  vs
