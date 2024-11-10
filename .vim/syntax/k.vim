@@ -951,12 +951,18 @@ syn keyword kPrimitive asin
 syn keyword kPrimitive atan
 syn keyword kPrimitive avg
 syn keyword kPrimitive bin
+syn keyword kPrimitive binr
+syn keyword kPrimitive cor
 syn keyword kPrimitive cos
+syn keyword kPrimitive cov
+syn keyword kPrimitive dev
 syn keyword kPrimitive div
 syn keyword kPrimitive do
+syn keyword kPrimitive enlist
 syn keyword kPrimitive exit
 syn keyword kPrimitive exp
 syn keyword kPrimitive getenv
+syn keyword kPrimitive hopen
 syn keyword kPrimitive i
 syn keyword kPrimitive if
 syn keyword kPrimitive in
@@ -972,6 +978,7 @@ syn keyword kPrimitive sqrt
 syn keyword kPrimitive ss
 syn keyword kPrimitive sum
 syn keyword kPrimitive tan
+syn keyword kPrimitive var
 syn keyword kPrimitive wavg
 syn keyword kPrimitive while
 syn keyword kPrimitive within
@@ -1215,9 +1222,7 @@ syn keyword qLib \.q\.attr
 syn keyword qLib \.q\.avgs
 syn keyword qLib \.q\.ceiling
 syn keyword qLib \.q\.cols
-syn keyword qLib \.q\.cor
 syn keyword qLib \.q\.count
-syn keyword qLib \.q\.cov
 syn keyword qLib \.q\.cross
 syn keyword qLib \.q\.csv
 syn keyword qLib \.q\.cut
@@ -1229,7 +1234,6 @@ syn keyword qLib \.q\.distinct
 syn keyword qLib \.q\.each
 syn keyword qLib \.q\.ej
 syn keyword qLib \.q\.ema
-syn keyword qLib \.q\.enlist
 syn keyword qLib \.q\.eval
 syn keyword qLib \.q\.except
 syn keyword qLib \.q\.fby
@@ -1244,7 +1248,6 @@ syn keyword qLib \.q\.gtime
 syn keyword qLib \.q\.hclose
 syn keyword qLib \.q\.hcount
 syn keyword qLib \.q\.hdel
-syn keyword qLib \.q\.hopen
 syn keyword qLib \.q\.hsym
 syn keyword qLib \.q\.iasc
 syn keyword qLib \.q\.idesc
@@ -1281,7 +1284,6 @@ syn keyword qLib \.q\.over
 syn keyword qLib \.q\.parse
 syn keyword qLib \.q\.peach
 syn keyword qLib \.q\.pj
-syn keyword qLib \.q\.plist
 syn keyword qLib \.q\.prds
 syn keyword qLib \.q\.prev
 syn keyword qLib \.q\.prior
@@ -1315,7 +1317,6 @@ syn keyword qLib \.q\.system
 syn keyword qLib \.q\.tables
 syn keyword qLib \.q\.til
 syn keyword qLib \.q\.trim
-syn keyword qLib \.q\.txf
 syn keyword qLib \.q\.type
 syn keyword qLib \.q\.uj
 syn keyword qLib \.q\.ungroup
@@ -1323,7 +1324,6 @@ syn keyword qLib \.q\.union
 syn keyword qLib \.q\.upper
 syn keyword kSpecial \.q\.upsert
 syn keyword qLib \.q\.value
-syn keyword qLib \.q\.var
 syn keyword qLib \.q\.view
 syn keyword qLib \.q\.views
 syn keyword qLib \.q\.vs
