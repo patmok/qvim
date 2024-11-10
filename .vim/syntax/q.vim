@@ -21,7 +21,7 @@ syn match qIdentifier "\<\a\w*\>"
 syn match qGlobal "\<\u[A-Z0-9_]*\>"
 " redo qPlaceholder as kPlaceholder may have got zapped 
 syn match qPlaceholder "\<[xyz]\>"
-
+" qFunction except kSpecial
 syn keyword qFunction  aj
 syn keyword qFunction  aj0
 syn keyword qFunction  ajf
@@ -137,7 +137,6 @@ syn keyword qFunction  ujf
 syn keyword qFunction  ungroup
 syn keyword qFunction  union
 syn keyword qFunction  upper
-"syn keyword qFunction  upsert
 syn keyword qFunction  value
 syn keyword qFunction  view
 syn keyword qFunction  views
